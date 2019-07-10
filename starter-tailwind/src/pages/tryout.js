@@ -1,0 +1,42 @@
+import React from "react";
+
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Monique from "../images/monique.svg";
+
+function IndexPage() {
+  return (
+    <Layout>
+      <SEO
+        title="Home"
+        keywords={[`architecture`, `interior design`, `react`, `tailwindcss`]}
+      />
+
+      <section className="text-center">
+        <img
+          src={Monique}
+          className="block mx-auto w-1/2"
+          alt="portret mo"
+        />
+
+        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+          Proberen of ik snel pages aan kan maken
+        </h2>
+
+        <p className="leading-loose">
+          This is a barebones starter for Gatsby styled using{" "}
+          <a
+            href="https://tailwindcss.com/"
+            className="font-bold no-underline text-gray-900"
+          >
+            Tailwind
+          </a>
+          , a utility-first CSS framework.
+        </p>
+      </section>
+
+    </Layout>
+  );
+}
+
+export default IndexPage;
