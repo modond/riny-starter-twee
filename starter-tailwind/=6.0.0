@@ -1,0 +1,11 @@
++ prop-types@15.7.2
++ react@16.8.6
++ graphql@14.4.2
++ eslint@5.16.0
++ eslint-plugin-flowtype@2.50.3
++ @typescript-eslint/parser@1.11.0
++ typescript@3.5.3
++ @typescript-eslint/eslint-plugin@1.11.0
+added 11 packages from 6 contributors, updated 17 packages and audited 22721 packages in 11.457s
+found 0 vulnerabilities
+
